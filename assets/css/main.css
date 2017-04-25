@@ -2386,6 +2386,16 @@
 			width: 50%;
 		}
 
+		#rich-starter {
+			background: url(https://res.cloudinary.com/ddy9eynci/image/upload/h_200/v1493152702/react-logo-1000-transparent_fanz32.png);
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		#julia {
+			background: url(https://res.cloudinary.com/ddy9eynci/image/upload/v1493152702/react-logo-1000-transparent_fanz32.png)
+		}
+
 			.features li:nth-child(1) {
 				background-color: rgba(0, 0, 0, 0.035);
 			}
@@ -3815,5 +3825,11 @@
 
 	.my-pic {
 		border-radius: 50%;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
+	}
+
+	.grqs {
+		background-image: url(http://res.cloudinary.com/ddy9eynci/image/upload/v1493163664/GRQS_onu3dy.gif);
+		background-position: center;
+		background-repeat: no-repeat;
 	}
