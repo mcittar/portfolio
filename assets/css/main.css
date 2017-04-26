@@ -3828,8 +3828,15 @@
 		margin-bottom: 40px;
 	}
 
-	.grqs {
-		background-image: url(http://res.cloudinary.com/ddy9eynci/image/upload/v1493163664/GRQS_onu3dy.gif);
+	.gif {
 		background-position: center;
 		background-repeat: no-repeat;
+	}
+
+	.grqs {
+		background-image: url(http://res.cloudinary.com/ddy9eynci/image/upload/v1493163664/GRQS_onu3dy.gif);
+	}
+
+	.julia {
+		background-image: url(https://res.cloudinary.com/ddy9eynci/image/upload/v1493166655/julia_ibgrll.gif);
 	}
