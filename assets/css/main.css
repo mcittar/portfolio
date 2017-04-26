@@ -2356,6 +2356,10 @@
 				line-height: 3.75em;
 			}
 
+			.center-button {
+				margin-top: none;
+			}
+
 		}
 
 /* Features */

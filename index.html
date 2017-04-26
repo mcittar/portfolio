@@ -8,10 +8,13 @@
 	<head>
 		<title>Michael Cittar</title>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/4f6a4b08efdad6bb29f9cc801f5c07e263b39907/devicon.min.css">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="_site/assets/css/font-mfizz.css" />
+		<link rel="stylesheet" href="_site/assets/css/devicon.css">
+		<link rel="stylesheet" href="_site/assets/css/devicon-colors.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -30,10 +33,10 @@
 									<div id="menu">
 										<ul>
 											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Generic</a></li>
-											<li><a href="elements.html">Elements</a></li>
+											<li><a class="scrolly" href="#one">About Me</a></li>
+											<li><a class="scrolly" href="#two">Projects</a></li>
 											<li><a href="#">Sign Up</a></li>
-											<li><a href="#">Log In</a></li>
+											<li><a class="scrolly" href="#cta">Contact</a></li>
 										</ul>
 									</div>
 								</li>
@@ -64,7 +67,7 @@
 									<p>I'm Michael, a software engineer with experience in Ruby on Rails, Javascript, React/Redux, and a background in finance. I love seeing things from a different perspective. I seek to bring the technical and creative together to build delightful, intuitive experiences. I've worked in various roles, but I most enjoy building and learning something new.</p>
 								</header>
 								<ul class="icons major">
-									<li><span class="icon fa-diamond major style1"><span class="label"></span></span></li>
+									<li><span class="icon icon-reactjs major style1"><span class="label"></span></span></li>
 									<li><span class="icon fa-html5 major style2"><span class="label"></span></span></li>
 									<li><span class="icon fa-code major style3"><span class="label"></span></span></li>
 								</ul>
@@ -72,30 +75,37 @@
 						</section>
 
 				<!-- Two -->
-					<!-- <section id="two" class="wrapper alt style2">
+					<section id="two" class="wrapper alt style2">
 						<section class="spotlight">
-							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
-								<h2>GetRichQuickStarter</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							<div class="image"><img src="http://res.cloudinary.com/ddy9eynci/image/upload/v1493163664/GRQS_onu3dy.gif" alt="" /></div><div class="content">
+								<header>
+									<h2>GetRichQuickStarter</h2>
+									<p><a href="https://getrichquickstarter.herokuapp.com/#/">Live</a> | <a href="https://github.com/mcittar/getrichquickstarter">Github</a>
+									</p>
+								</header>
+							<p>GetRichQuickStarter is a fun app that allows users to crowdfund their favorite 90s infomercial products.</p>
 							</div>
 						</section>
 						<section class="spotlight">
-							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+							<div class="image"><img src="https://res.cloudinary.com/ddy9eynci/image/upload/v1493166655/julia_ibgrll.gif" alt="" /></div><div class="content">
 								<h2>Julia Fractal Generator</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+								<p><a href="https://mcittar.github.io/julia_fractals/">Live</a> | <a href="https://github.com/mcittar/julia_fractals/tree/gh-pages">Github</a>
+								</p>
+							</head>
+							<p>An interested dynamic fractal generator using WebGL for lightning fast rendering of complex fractal math.</p>
 							</div>
-						</section> -->
-						<!-- <section class="spotlight">
+						</section>
+						<section class="spotlight">
 							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
 								<h2>Augue eleifend aliquet<br />
 								sed condimentum</h2>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
 							</div>
-						</section> -->
-					<!-- </section> -->
+						</section>
+					</section>
 
 				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
+					<!-- <section id="three" class="wrapper style3 special">
 						<div class="inner">
 							<header class="major">
 								<h2>My Projects</h2>
@@ -121,7 +131,7 @@
 										<p><a href="https://mcittar.github.io/julia_fractals/">Live</a> | <a href="https://github.com/mcittar/julia_fractals/tree/gh-pages">Github</a>
 										</p>
 									</head>
-									<p>An interested dynamic fractal generator that uses WebGL for lightning fast rendering of complex fractal math.</p>
+									<p>An interested dynamic fractal generator using WebGL for lightning fast rendering of complex fractal math.</p> -->
 								<!-- </li>
 								<li class="icon fa-heart-o">
 									<h3>Aenean Primis</h3>
@@ -131,9 +141,9 @@
 									<h3>Tortor Ut</h3>
 									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
 								</li> -->
-							</ul>
+							<!-- </ul>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
